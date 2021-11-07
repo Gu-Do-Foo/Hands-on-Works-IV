@@ -1,0 +1,10 @@
+CREATE TABLE "Jogos" ( "Nome" TEXT NOT NULL,
+"Densevolvidores" TEXT NOT NULL, "Distribuidora" TEXT NOT
+NULL, "Marcadores" TEXT NOT NULL, "Disponivel" BLOB NOT
+NULL, "Data lançamento" INTEGER NOT NULL, "CLASSIFICAÇÃO
+INDICATIVA" INTEGER NOT NULL, "Estado" TEXT NOT NULL, "Nome
+do Jogo" TEXT NOT NULL, PRIMARY KEY("Estado","Marcadores")
+)
+CREATE TABLE "Plano" ( "Tipo" TEXT NOT NULL, "Valor" REAL
+NOT NULL, "Forma de pagamento" TEXT NOT NULL, "Validade"
+INTEGER NOT NULL, PRIMARY KEY("Tipo") )
